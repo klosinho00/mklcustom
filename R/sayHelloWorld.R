@@ -1,7 +1,7 @@
 #' Say hello to the new world and choose to what world you want to say hello.
 #'
 #' @param name Name of the world for which a hello statement should
-#' be written. Needs to be a character.
+#' be written. Needs to be a character string.
 #'
 #' @return Character string based on the name variable and a greeting formula.
 #' @export
