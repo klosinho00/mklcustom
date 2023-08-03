@@ -15,4 +15,18 @@ You can install the development version of mklcustom from [GitHub](https://githu
 devtools::install_github("marianklose/mklcustom")
 ```
 
-So far this is only intended to be used privately by my own.
+So far this is only intended to be used privately by my own. Since the repo is private the following workflow needs to be used to install:
+
+``` r
+#set config
+usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")
+
+#Go to github page to generate token
+usethis::create_github_token() 
+
+#paste your PAT into pop-up that follows...
+credentials::set_github_pat()
+
+#now remotes::install_github() will work
+remotes::install_github("username/privaterepo")
+```
