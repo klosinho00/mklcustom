@@ -3,7 +3,7 @@ Type: Package
 Title: Custom convenience functions
 Version: 0.1.0
 Author: Marian Klose
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: Marian Klose <marian.klose@fu-berlin.de>
 Description: Custom convenience functions for me, Marian Klose.
     Should contain preferred styleguides and frequently reused functions.
 License: MIT + file LICENSE
