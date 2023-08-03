@@ -12,7 +12,7 @@ You can install the development version of mklcustom from [GitHub](https://githu
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("klosinho00/mklcustom")
+devtools::install_github("marianklose/mklcustom")
 ```
 
 So far this is only intended to be used privately by my own.
