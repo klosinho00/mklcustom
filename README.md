@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of mklcustom is to provide some convenience functions for myself, Marian Klose.
+The goal of the package mklcustom is to provide some convenience functions for myself, Marian Klose.
 
 ## Installation
 
