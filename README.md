@@ -19,7 +19,7 @@ So far this is only intended to be used privately by my own. Since the repo is p
 
 ``` r
 #set config
-usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")
+usethis::use_git_config(user.name = "marianklose", user.email = "marian.klose@fu-berlin.de")
 
 #Go to github page to generate token
 usethis::create_github_token() 
@@ -28,5 +28,5 @@ usethis::create_github_token()
 credentials::set_github_pat()
 
 #now remotes::install_github() will work
-remotes::install_github("username/privaterepo")
+remotes::install_github("marianklose/mklcustom")
 ```
